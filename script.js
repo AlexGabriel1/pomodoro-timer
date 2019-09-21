@@ -1,3 +1,4 @@
-var $timer = document.querySelector('[data-js="timer]')
+var text = document.getElementById('i');
 
-$timer = 3333;
+
+console.log(text);
