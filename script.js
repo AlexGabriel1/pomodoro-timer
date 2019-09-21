@@ -1,4 +1,7 @@
-var text = document.getElementById('i');
+var $tempo = document.querySelector('[data-js="tempo"]');
+
+$tempo.value = '333';
 
 
-console.log(text);
+
+$('h1').html('Ta funcionando')
