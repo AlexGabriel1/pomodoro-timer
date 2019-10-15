@@ -1,3 +1,3 @@
 # pomodoro-timer
 
-[pomodoro-timer](timer-pomodoro.netlify.com)
+[pomodoro-timer](https://timer-pomodoro.netlify.com/)
