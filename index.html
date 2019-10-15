@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/39a79308b1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="all.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="style.css  ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="pomodoro">
-        <h1 id="tempo"></h1>
-        
-    </div>
-
-
-    
-    <script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <h1 class="title"></h1>
+        <div class="container">
+            <p class="text"></p>
+            <div class="icons">
+                <i class="fas fa-play" onclick="play()"></i>
+                <i class="fas fa-pause" onclick="pause()"></i>
+                <i class="fas fa-redo-alt" onclick="reset()"></i>
+            </div>
+        </div>
+        <p class="descricao">
+            A Técnica Pomodoro é um método de gerenciamento de tempo que consiste na utilização de um cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos. O método é baseado na ideia de que pausas frequentes podem aumentar a agilidade mental.
+        </p>
+   
+    <script src="script.js"></script>
 </body>
 </html>
